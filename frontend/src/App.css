@@ -1,0 +1,259 @@
+/* Animations et effets personnalisés */
+.gradient-text {
+    background: linear-gradient(45deg, #EF4444, #991B1B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.animated-gradient-bg {
+    background: linear-gradient(-45deg, #ff5757, #8c0f0f, #ff8585, #540000);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+.floating-element {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+.card-3d {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: all 0.3s ease;
+}
+
+.card-3d:hover {
+    transform: rotateY(5deg) rotateX(5deg) scale(1.05);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.shine-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+.shine-effect::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent 0%,
+        rgba(255,255,255,0.1) 50%,
+        transparent 100%
+    );
+    transform: rotate(45deg);
+    animation: shine 3s infinite;
+}
+
+@keyframes shine {
+    0% { transform: translateX(-100%) rotate(45deg); }
+    100% { transform: translateX(100%) rotate(45deg); }
+}
+
+.pulse-effect {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+    70% { box-shadow: 0 0 0 20px rgba(239, 68, 68, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Ajoutez ces styles à votre fichier CSS existant */
+.perspective-1000 {
+    perspective: 1000px;
+}
+
+.particle {
+    animation: float-particle 10s infinite;
+    opacity: 0;
+}
+
+@keyframes float-particle {
+    0% {
+        transform: translateY(0) translateX(0) rotate(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100px) translateX(100px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* Appliquer des délais différents aux particules */
+.particles-container > div:nth-child(odd) {
+    animation-delay: 0.5s;
+    animation-duration: 15s;
+}
+
+.particles-container > div:nth-child(even) {
+    animation-delay: 1s;
+    animation-duration: 12s;
+}
+
+.particles-container > div:nth-child(3n) {
+    animation-delay: 1.5s;
+    animation-duration: 18s;
+}
+
+/* Couleurs de fond et de texte */
+body {
+    background-color: #1F2937; /* Gris foncé */
+    color: #F9FAFB; /* Blanc */
+}
+
+/* Navigation */
+nav {
+    background-color: rgba(255, 255, 255, 0.1); /* Blanc transparent */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom right, rgba(30, 64, 175, 0.8), rgba(239, 68, 68, 0.8));
+}
+
+/* Boutons */
+.btn-primary {
+    background-color: #EF4444; /* Rouge vif */
+    color: #FFFFFF; /* Blanc */
+}
+
+.btn-primary:hover {
+    background-color: #991B1B; /* Rouge foncé */
+}
+
+/* Autres éléments */
+.card {
+    background-color: rgba(255, 255, 255, 0.1); /* Blanc transparent */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Bordure blanche transparente */
+}
+
+/* Textes accentués */
+.text-accent {
+    color: #FBBF24; /* Jaune */
+}
+
+/* Améliorations pour les sections */
+.section {
+    padding: 2rem 0;
+    background-color: rgba(255, 255, 255, 0.05); /* Légèrement transparent pour les sections */
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles supplémentaires pour la barre de navigation */
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #EF4444; /* Rouge vif au survol */
+}
+
+/* Styles pour les cartes de fonctionnalités */
+.card {
+    background-color: rgba(255, 255, 255, 0.1); /* Blanc transparent */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Bordure blanche transparente */
+}
+
+/* Couleurs de texte pour les fonctionnalités */
+.text-primary {
+    color: #EF4444; /* Rouge vif */
+}
+
+/* Effet de verre amélioré */
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+/* Animation de flottement améliorée */
+.float-animation {
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Effet de bordure brillante */
+.glow-border {
+  position: relative;
+  border: 2px solid transparent;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b649);
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Effet de survol des cartes */
+.hover-card {
+  transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Effet de texte brillant */
+.text-glow {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Effet de bordure animée */
+.animated-border {
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff6b6b);
+  animation: borderAnimation 3s linear infinite;
+}
+
+@keyframes borderAnimation {
+  0% { left: -100%; }
+  50% { left: 100%; }
+  100% { left: 100%; }
+}

@@ -1,0 +1,68 @@
+cin,nom,prenom,telephone,adresse,montant_credit
+AB123456,Dupont,Jean,0612345678,"123 rue de Paris, 75001 Paris",5000
+CD789012,Martin,Marie,0687654321,"45 avenue des Champs-Élysées, 75008 Paris",7500
+EF345678,Bernard,Pierre,0654321987,"78 boulevard Saint-Michel, 75005 Paris",
+GH901234,,,0611223344,
+IJ567890,Dubois,Sophie,,
+KL123789,Petit,,,
+MN456012,,,,"15 rue du Commerce, 75015 Paris",
+OP789345,Moreau,Thomas,0699887766,"92 rue de Rivoli, 75004 Paris",
+QR123456,Leclerc,Luc,0678901234,"10 rue de la Liberté, 75012 Paris",
+ST789012,Durand,Claire,0645678901,"5 rue de la République, 75003 Paris",
+UV123456,Simon,Paul,0634567890,"20 rue de la Paix, 75002 Paris",
+WX789012,Morel,Anne,0623456789,"30 rue de l'Opéra, 75009 Paris",
+YZ123456,Faure,Lucie,0612345670,"40 rue de la Gare, 75010 Paris",
+AB987654,Blanc,Marc,0687654320,"50 rue de la Nation, 75011 Paris",
+CD654321,Noir,Émilie,0654321098,"60 rue de la Liberté, 75012 Paris",
+EF321098,Richard,Julien,0698765432,"70 rue de la République, 75013 Paris",
+GH456789,Petit,Chloé,0678901234,"80 rue de la Concorde, 75014 Paris",
+IJ234567,Martin,Lucas,0643210987,"90 rue de la Sorbonne, 75005 Paris",
+KL345678,Durand,Inès,0632109876,"100 rue de la Paix, 75001 Paris",
+MN567890,Leclerc,Thomas,0621098765,"110 rue de l'École, 75015 Paris",
+OP678901,Moreau,Emma,0610987654,"120 rue de la Liberté, 75016 Paris",
+QR789012,Simon,Victor,0609876543,"130 rue de la République, 75017 Paris",
+ST890123,Faure,Lucie,0598765432,"140 rue de la Gare, 75018 Paris",
+AB123457,Martin,Jean,0612345679,"123 rue de la Liberté, 75001 Paris",
+AB123458,Martin,Lucie,0612345680,"124 rue de la Liberté, 75001 Paris",
+AB123459,Martin,Paul,0612345681,"125 rue de la Liberté, 75001 Paris",
+AB123460,Martin,Sophie,0612345682,"126 rue de la Liberté, 75001 Paris",
+AB123461,Martin,Marc,0612345683,"127 rue de la Liberté, 75001 Paris",
+AB123462,Martin,Émilie,0612345684,"128 rue de la Liberté, 75001 Paris",
+AB123463,Martin,Julien,0612345685,"129 rue de la Liberté, 75001 Paris",
+AB123464,Martin,Chloé,0612345686,"130 rue de la Liberté, 75001 Paris",
+AB123465,Martin,Inès,0612345687,"131 rue de la Liberté, 75001 Paris",
+AB123466,Martin,Victor,0612345688,"132 rue de la Liberté, 75001 Paris",
+AB123467,Martin,Luc,0612345689,"133 rue de la Liberté, 75001 Paris",
+AB123468,Martin,Anne,0612345690,"134 rue de la Liberté, 75001 Paris",
+AB123469,Martin,Thomas,0612345691,"135 rue de la Liberté, 75001 Paris",
+AB123470,Martin,Lucie,0612345692,"136 rue de la Liberté, 75001 Paris",
+AB123471,Martin,Jean,0612345693,"137 rue de la Liberté, 75001 Paris",
+AB123472,Martin,Lucie,0612345694,"138 rue de la Liberté, 75001 Paris",
+AB123473,Martin,Paul,0612345695,"139 rue de la Liberté, 75001 Paris",
+AB123474,Martin,Sophie,0612345696,"140 rue de la Liberté, 75001 Paris",
+AB123475,Martin,Marc,0612345697,"141 rue de la Liberté, 75001 Paris",
+AB123476,Martin,Émilie,0612345698,"142 rue de la Liberté, 75001 Paris",
+AB123477,Martin,Julien,0612345699,"143 rue de la Liberté, 75001 Paris",
+AB123478,Martin,Chloé,0612345700,"144 rue de la Liberté, 75001 Paris",
+AB123479,Martin,Inès,0612345701,"145 rue de la Liberté, 75001 Paris",
+AB123480,Martin,Victor,0612345702,"146 rue de la Liberté, 75001 Paris",
+AB123481,Martin,Luc,0612345703,"147 rue de la Liberté, 75001 Paris",
+AB123482,Martin,Anne,0612345704,"148 rue de la Liberté, 75001 Paris",
+AB123483,Martin,Thomas,0612345705,"149 rue de la Liberté, 75001 Paris",
+AB123484,Martin,Lucie,0612345706,"150 rue de la Liberté, 75001 Paris",
+AB123485,Martin,Jean,0612345707,"151 rue de la Liberté, 75001 Paris",
+AB123486,Martin,Lucie,0612345708,"152 rue de la Liberté, 75001 Paris",
+AB123487,Martin,Paul,0612345709,"153 rue de la Liberté, 75001 Paris",
+AB123488,Martin,Sophie,0612345710,"154 rue de la Liberté, 75001 Paris",
+AB123489,Martin,Marc,0612345711,"155 rue de la Liberté, 75001 Paris",6000
+AB123490,Martin,Émilie,0612345712,"156 rue de la Liberté, 75001 Paris",5500
+XY123456,Durand,Jean,0612345678,"10 rue de la Paix, 75001 Paris",3000
+XY789012,Martin,Marie,0687654321,"20 avenue des Champs-Élysées, 75008 Paris",4500
+XY345678,Bernard,Pierre,0654321987,"30 boulevard Saint-Michel, 75005 Paris",6000
+XY901234,Dubois,Sophie,0611223344,"40 rue de la Liberté, 75012 Paris",7000
+XY567890,Petit,Lucie,0634567890,"50 rue de la République, 75003 Paris",8000
+XY123789,Moreau,Thomas,0699887766,"60 rue de la Gare, 75010 Paris",9000
+XY654321,Leclerc,Luc,0678901234,"70 rue de l'Opéra, 75009 Paris",10000
+XY321098,Faure,Chloé,0623456789,"80 rue de la Nation, 75011 Paris",11000
+XY456789,Richard,Julien,0698765432,"90 rue de la Liberté, 75012 Paris",12000
+XY234567,Simon,Victor,0609876543,"100 rue de la Concorde, 75014 Paris",13000 
